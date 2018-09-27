@@ -1,93 +1,128 @@
 var men = [
-  "Anthony",
-  "Clinton",
-  "David",
-  "Dimitri",
-  "Ethan",
-  "Joe",
-  "Kareem",
-  "Keith",
-  "Malcolm",
-  "Michael",
-  "Tyler"
+  "Andrew",
+  "Brett",
+"Cam",
+"Daniel",
+"Kwasi",
+"Lewis",
+"Moe",
+"Shamoy",
+"Tevin",
+"Tomas",
+"Zak"
 ];
 
 var women = [
-  "Alexis",
-  "Alivia",
-  "Audrey",
-  "Diandra",
-  "Geles",
-  "Jada",
-  "Keyana",
-  "Nicole",
-  "Nurys",
-  "Uche",
-  "Zoe"
+"Asia",
+"Bria",
+"Cali",
+"Jasmine",
+"Kayla",
+"Kenya",
+"Lauren",
+"Maria",
+"Morgan",
+"Nutsa",
+"Samantha"
 ];
 
 var matchUps = [
   [
     3,
     {
-      "Alexis": "Keith",
-      "Alivia": "Kareem",
-      "Audrey": "David",
-      "Diandra": "Dimitri",
-      "Geles": "Anthony",
-      "Jada": "Ethan",
-      "Keyana": "Michael",
-      "Nicole": "Tyler",
-      "Nurys": "Malcolm",
-      "Uche": "Clinton",
-      "Zoe": "Joe"
+      "Asia": "Kwasi",
+"Bria": "Zak",
+"Cali": "Brett",
+"Jasmine": "Moe",
+"Kayla": "Cam",
+"Kenya": "Tevin",
+"Lauren": "Andrew",
+"Maria": "Shamoy",
+"Morgan": "Tomas",
+"Nutsa": "Daniel",
+"Samantha": "Lewis"
     }
   ],
   [
-    1,
+    3,
     {
-      "Alexis": "Keith",
-      "Alivia": "Kareem",
-      "Audrey": "Joe",
-      "Diandra": "Anthony",
-      "Geles": "David",
-      "Jada": "Ethan",
-      "Keyana": "Michael",
-      "Nicole": "Dimitri",
-      "Nurys": "Malcolm",
-      "Uche": "Clinton",
-      "Zoe": "Tyler"
+"Asia": "Brett",
+"Bria": "Moe",
+"Cali": "Tomas",
+"Jasmine": "Lewis",
+"Kayla": "Cam",
+"Kenya": "Tevin",
+"Lauren": "Kwasi",
+"Maria": "Shamoy",
+"Morgan": "Andrew",
+"Nutsa": "Daniel",
+"Samantha": "Zak"
+
+    }
+  ],
+  [
+    3,
+    {
+     "Asia": "Lewis",
+"Bria": "Tomas",
+"Cali": "Brett",
+"Jasmine": "Kwasi",
+"Kayla": "Cam",
+"Kenya": "Tevin",
+"Lauren": "Andrew",
+"Maria": "Shamoy",
+"Morgan": "Zak",
+"Nutsa": "Moe",
+"Samantha": "Daniel"
+
     }
   ],
   [
     2,
-    {
-      "Alexis": "Ethan",
-      "Alivia": "Kareem",
-      "Audrey": "Michael",
-      "Diandra": "Keith",
-      "Geles": "Malcolm",
-      "Jada": "Anthony",
-      "Keyana": "David",
-      "Nicole": "Tyler",
-      "Nurys": "Dimitri",
-      "Uche": "Clinton",
-      "Zoe": "Joe"
+    {"Asia": "Cam",
+"Bria": "Kwasi",
+"Cali": "Tomas",
+"Jasmine": "Tevin",
+"Kayla": "Brett",
+"Kenya": "Lewis",
+"Lauren": "Daniel",
+"Maria": "Shamoy",
+"Morgan": "Zak",
+"Nutsa": "Andrew",
+"Samantha": "Moe"
+
     }
   ],
   [
-    0,
-    {
+    4,
+    {"Asia": "Moe",
+"Bria": "Daniel",
+"Cali": "Tomas",
+"Jasmine": "Kwasi",
+"Kayla": "Cam",
+"Kenya": "Tevin",
+"Lauren": "Lewis",
+"Maria": "Shamoy",
+"Morgan": "Zak",
+"Nutsa": "Brett",
+"Samantha": "Andrew"
+
     }
   ],
   [
-    0,
-    {
-    }
-  ],
-  [
-    0,
-    {
+    4,
+    {"Asia": "Kwasi",
+"Bria": "Lewis",
+"Cali": "Tomas",
+"Jasmine": "Moe",
+"Kayla": "Cam",
+"Kenya": "Tevin",
+"Lauren": "Andrew",
+"Maria": "Shamoy",
+"Morgan": "Zak",
+"Nutsa": "Brett",
+"Samantha": "Daniel"
+
     }
   ],
   [
@@ -114,18 +149,28 @@ var matchUps = [
 
 var truthBooths = [
   {
-    "Ethan": {
-      "Keyana": true
+    "Shamoy": {
+      "Maria": false
+    }
+  }, 
+   {
+    "Andrew": {
+      "Asia": true
     }
   },
   {
-    "Anthony": {
-      "Geles": true
+    "Brett": {
+      "Kenya": true
     }
   },
   {
-    "Malcolm": {
-      "Nurys": true
+    "Zak": {
+      "Bria": true
+    }
+  },
+  {
+    "Brett": {
+      "Cali": true
     }
   }
 ];
